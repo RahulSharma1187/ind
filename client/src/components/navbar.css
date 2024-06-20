@@ -1,0 +1,170 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    background: #1b1611;
+    position: relative;
+}
+.logo-brand{
+    width: 160px;
+    color: #fff;
+    font-size: 18px;
+}
+.logo-brand a{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    font-size: 16px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    color: #fff;
+}
+nav ul li a.active{
+    color: yellow;
+}
+
+.topSearch{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.searchBox{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    z-index: 1;
+}
+.searchBox label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.searchBox .searchBoxClose{
+    width: 30px;
+    height: 30px;
+    background: red;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    cursor: pointer;
+}
+/* .searchBox label input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    border: 2px solid #959290;
+    border-radius: 25px;
+    padding: 0 25px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+} */
+
+.searchBox label input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    background: none;
+    padding: 0 100px;
+    color: #000;
+    font-size: 16px;
+    width: 100%;
+}
+
+.topSearch .searchBtn{
+    margin-left: 26px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.login{
+    cursor: pointer;
+    color: #fff;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.login span{
+    padding-right: 20px;
+}
+
+.topSearch .bookServiceBtn{
+    height: 51px;
+    border-radius: 30px;
+    background: #000;
+    border: 2px solid #858380;
+    padding: 0 26px;
+}
+.topSearch .bookServiceBtn:hover{
+    background: var(--form-btn-bg-hover) !important; 
+}
+.bookServiceBoxBg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.5);
+    transition: all 0.2s ease;
+    z-index: 2;
+}
+
+.bookServiceBox{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 73%;
+    height: 100vh;
+    background: #fff;
+    transition: all 0.5s ease;
+    transform: translate3d(-100%,0,0);
+}
+.bookServiceBoxAnim{
+    transform: translate3d(0,0,0);
+}
+
+.bookServiceBoxClose{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+@media (max-width: 1700px) {
+    .container{
+        padding: 0 50px;
+    }
+}

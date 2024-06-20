@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Questrial&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  /* font-family: "Playfair Display", serif; */
+  outline: none;
+  outline: none;
+}
+:hover, :focus{
+  outline: none;
+}
+
+h1,h2{
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+:root {
+  /* btn style*/
+  --btn-bg: #666666;
+  --btn-bg-hover: #444791;
+  --btn-color: #ffffff;
+  --btn-font-size: 30px;
+  --btn-radius: 30px; 
+  /*book a call form-Btn */
+  --form-btn-bg: #666666;
+  --form-btn-bg-hover: #444791;
+  --form-btn-color: #ffffff;
+  --form-btn-font-size: 18px;
+  --form-btn-radius: 15px; 
+}
+
+.btn{
+  background: var(--btn-bg) !important; 
+  height: 67px !important;
+  border-radius: var(--btn-radius) !important; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 47px !important;
+  color: var(--btn-color) !important; 
+  font-size: var(--btn-font-size) !important; 
+  transition: all 0.5s ease;
+  text-transform: none !important;
+}
+.btn:hover{
+  background: var(--btn-bg-hover) !important; 
+}
+
+.readMore{
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.readMore span{
+  width: 20px;
+  height: 9px;
+  background: url(./images/rightArw.png) 0 0 no-repeat;
+  margin-left: 10px;
+  transition: all 0.5s ease;
+}
+.readMore:hover{
+  color: #1565c0;
+}
+.readMore:hover span{
+  transform: translate3d(8px, 0, 0);
+}
+
+.w-full{
+  width: 100% !important;
+}
+.m-80{
+  margin-top: 80px !important;
+}
+.m-40{
+  margin-top: 40px !important;
+}
+.m-50{
+  margin-top: 50px !important;
+}
+
+.meetTheFounderPage{
+  width: 100%;
+  padding: 50px 5%;
+}
+.meetTheFounderPage h1{
+  font-size: 28px;
+  padding-top: 20px;
+}

@@ -1,0 +1,65 @@
+.scheduleConsultation{
+    background: #e7e7e7;
+    padding: 100px 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scheduleConsultationBox{
+    width: 1157px;
+    background: #fff;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scheduleConsultationBox h2{
+    color: #000000;
+    font-size: 72px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
+.scheduleConsultationBox h2 span{
+    color: #777777;
+}
+.scheduleConsultationBox h3{
+    color: rgba(0,0,0,0.5);
+    font-size: 36px;
+}
+
+.dateTime-form{
+    margin-top: 45px;
+    width: 545px;
+}
+.dateTime-form p{
+    font-weight: bold;
+}
+
+.dateTime-form .dateTime-cal,
+.dateTime-form .dateTime-time{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 2px solid #e4e4e4;
+    outline: none;
+}
+
+
+.dateTime-form .form-Btn{
+  background: var(--form-btn-bg) !important;
+  width: 100% !important; 
+  height: 60px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--form-btn-color) !important;
+  border-radius: var(--form-btn-radius) !important;
+  font-size: var(--form-btn-font-size) !important;
+  text-transform: none !important;
+  font-family: inherit !important;
+}
+
+.dateTime-form .form-Btn:hover{
+  background: var(--form-btn-bg-hover) !important; 
+}

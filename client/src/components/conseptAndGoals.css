@@ -1,0 +1,47 @@
+.conseptAndGoals{
+    display: flex;
+    flex-direction: column;
+}
+
+.conseptGoalsSec{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.conseptGoalsSec:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.conseptGoalsSecImg{
+    background: #000000;
+    width: 500px;
+    height: 500px;
+    border-radius: 22px;
+}
+.conseptGoalsSecCont{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 75px;
+}
+.conseptGoalsSec:nth-child(even) .conseptGoalsSecCont{
+    padding-left: 0;
+    padding-right: 75px;
+}
+
+.vedicAstrology .conseptGoalsSecCont h4{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: #000000; 
+    font-weight: bold;
+}
+
+.vedicAstrology .conseptGoalsSecCont p{
+    text-align: left !important;
+    font-size: 32px;
+    color: rgba(0,0,0,0.5);
+    line-height: 1.5;
+}

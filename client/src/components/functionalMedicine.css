@@ -1,0 +1,29 @@
+.functionalMedicine{
+    padding: 145px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.functionalMedicine h2{ 
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 72px;
+    line-height: 1;
+    color: #000000;
+}
+.functionalMedicine h2 span{
+    color: #777777;
+}
+.functionalMedicine p{
+    color: rgba(0,0,0,0.5);
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.2;
+    width: 80%;
+    padding: 60px 0;
+}
+.functionalMedicine p a{
+    color: rgba(0,0,0,0.5);
+    text-decoration: underline;
+}

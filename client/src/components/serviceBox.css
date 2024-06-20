@@ -1,0 +1,43 @@
+.serviceBox{
+    width: 100%;
+}
+.helpBooking{
+    background: #ededed;
+    height: 54px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #727272;
+}
+.serviceTab{
+    display: flex;
+    margin-top: 12px;
+}
+.serviceTab .serviceTabLft{
+    width: 345px;
+}
+.serviceTab .serviceTabLft ul{
+    display: flex;
+    flex-direction: column; 
+}
+.serviceTab .serviceTabLft ul li{
+    background: #ededed;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #727272;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.serviceTab .serviceTabLft ul li.active{
+    background: #727272;
+    color: #ffffff;
+}
+
+.serviceTab .serviceTabRgt{
+    flex: 1;
+    padding-left: 10px;
+}

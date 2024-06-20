@@ -1,0 +1,52 @@
+.meetTheFounderBanner{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+.meetTheFounderBanner .imgBox{
+    width: 768px;
+    height: 567px;
+    overflow: hidden;
+}
+.meetTheFounderBanner .imgBox img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.meetTheFounderBanner .imgDtlBox{
+    background: #000;
+    width: 65%;
+    height: 450px;
+    position: absolute;
+    top: 11%;
+    left: 0;
+    padding: 5%;
+}
+.imgDtlBox .quoteIcon svg{
+    fill: white;
+    font-size: 64px;
+    transform: rotate3d(0, 0, 1, -180deg);
+}
+.imgDtlBox h2{
+    color: #fff;
+    font-size: 24px;
+    padding-left: 10px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.imgDtlBox h2::after{
+    content: '';
+    width: 200px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+.imgDtlBox p{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+}

@@ -1,0 +1,100 @@
+
+.reviewBox{
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviewBox h3{
+    color: #787878;
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+}
+
+.signInInfoBox{
+    background: #f7f7f7;
+    padding: 15px 20px;
+    border: 1px solid #9f9f9f;
+    font-size: 16px;
+    color: #787878;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.review-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+.review-form .MuiFormControl-root{
+    margin-top: 16px;
+    width: 100%;
+}
+.review-form .MuiFormControl-root .css-1wc848c-MuiFormHelperText-root.Mui-error{
+    font-size: 12px;
+}
+
+.review-form .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 0 24px;
+    height: 58px;
+    background: #fff;
+}
+
+.frgtPass{
+    font-size: 16px;
+    color: #787878;
+    text-transform: uppercase;
+    padding-top: 20px;
+    display: flex;
+}
+
+.review-form .form-Btn{
+    width: 100% !important;
+    height: 52px;
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid #b2b2b2;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #787878;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-form .form-Btn:hover{
+    color: #fff;
+    background: #444791;
+}
+
+.review-form .form-Btn svg{
+    margin-right: 10px;
+}
+
+.orCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+}
+.orCol i{
+    height: 2px;
+    background: #d6d6d6;
+    width: 100%; 
+    position: absolute;
+    left: 0;
+}
+.orCol span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 0 8px;
+    position: relative;
+    z-index: 1;
+    color: #787878;
+    font-size: 16px;
+}

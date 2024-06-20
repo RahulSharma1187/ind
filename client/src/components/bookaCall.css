@@ -1,0 +1,81 @@
+.bookaCall{
+    background: #e7e7e7;
+    width: 100%;
+    padding: 150px 200px;
+    display: flex;
+}
+
+.bookaCallLft{
+    width: 652px;
+    flex-shrink: 0;
+}
+
+.bookaCallRgt{
+    flex: 1;
+    padding-left: 150px;
+    overflow: auto;
+}
+
+.bookaCallRgt h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 72px;
+    color: #000000;
+}
+.bookaCallRgt h2 span{
+    color: #777777;
+}
+.bookaCallRgt h3{
+    font-size: 36px;
+    color: #000000;
+}
+.bookaCallRgt p{
+    font-size: 24px;
+    color: #000000;
+}
+.bookcall-form{
+    display: flex;
+    flex-direction: column;
+}
+.bookcall-form .MuiFormControl-root{
+    border-radius: 15px;
+    margin-top: 16px;
+    width: 80%;
+}
+
+
+.bookcall-form .MuiFormControl-root .css-1wc848c-MuiFormHelperText-root.Mui-error{
+    font-size: 12px;
+}
+
+.bookcall-form .css-batk84-MuiInputBase-root-MuiFilledInput-root{
+    border-radius: 15px;
+}
+.bookcall-form .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    border-radius: 15px;
+}
+.bookcall-form .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 0 24px;
+    height: 58px;
+    background: #fff;
+    border-radius: 15px;
+}
+
+
+.bookaCallRgt .form-Btn{
+  background: var(--form-btn-bg) !important;
+  width: 80% !important; 
+  height: 60px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--form-btn-color) !important;
+  border-radius: var(--form-btn-radius) !important;
+  font-size: var(--form-btn-font-size) !important;
+  text-transform: none !important;
+  font-family: inherit !important;
+}
+
+.bookaCallRgt .form-Btn:hover{
+  background: var(--form-btn-bg-hover) !important; 
+}

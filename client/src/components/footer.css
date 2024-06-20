@@ -1,0 +1,94 @@
+.footer{
+    background: #e7e7e7;
+    padding: 100px;
+}
+.footerTop{
+    display: flex;
+}
+.footerTopLft{
+    flex: 1.2;
+}
+.footerTopLft h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    color: #666666;
+    font-size: 38px;
+}
+.footerTopLft h2 span{
+    text-transform: uppercase;
+}
+.footerTopLft .emailSignup{
+    margin: 100px 0;
+}
+.footerTopLft .emailSignup label{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-items: center;
+}
+.footerTopLft .emailSignup input{
+    font-size: 38px;
+    color: rgba(0,0,0,0.5);
+    background: none;
+    border-bottom: 2px solid #a6a6a6;
+    width: 96%;
+}
+.footerTopLft .emailSignup button{
+    position: absolute;
+    right: 0;
+}
+.footerTopLft .emailSignup button svg{
+    font-size: 58px;
+}
+.footerTopRgt{
+    flex: 1;
+    display: flex;
+    padding-left: 200px;
+}
+.footerTopRgt h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 38px;
+    color: #000;
+    font-weight: bold;
+}
+.footerTopRgt {
+    gap: 95px;
+}
+.footerTopRgt ul{
+    margin-top: 20px;
+}
+
+.footerTopRgt ul li{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.footerTopRgt ul li a{
+    color: #000000;
+    transition: all 0.2s ease;
+    position: relative;
+}
+.footerTopRgt ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #000;
+    transition: all 0.5s ease;
+}
+.footerTopRgt ul li a:hover{
+    color: #666;
+}
+.footerTopRgt ul li a:hover::before{
+    color: #666;
+    width: 100%;
+}
+
+.footerBtm{
+    font-size: 24px;
+    color: #000000;
+}

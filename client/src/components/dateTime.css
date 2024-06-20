@@ -1,0 +1,70 @@
+.dateTime{
+    width: 100%;
+}
+.dateTime h3{
+    color: #787878;
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+}
+.calTime{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.calTime .calCol{
+    width: 380px;
+}
+.availability{
+    height: 90px;
+    background: #727272;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.timeCol{
+    margin-left: 30px;
+}
+.timeCol .timeTitle{
+    height: 90px;
+    color: #787878;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.timeCol ul li{
+    margin-top: 20px;
+}
+
+.timeCol ul li .form-Btn{
+    width: 230px;
+    height: 53px;
+    background: #fff;
+    border: 1px solid #727272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0555a0;
+    font-size: 16px;
+}
+
+.timeCol ul li .form-Btn.selected{
+    background-color: #444791 !important;
+    color: white;
+}
+.timeCol p{
+    margin-top: 15px;
+    color: #3f3a3a;
+    font-size: 14px;
+}
+
+.error{
+    color: red;
+}

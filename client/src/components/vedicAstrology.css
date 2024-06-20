@@ -1,0 +1,6 @@
+.vedicAstrology{
+    padding: 145px 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

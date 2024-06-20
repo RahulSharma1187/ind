@@ -1,0 +1,22 @@
+.dividerStar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+.dividerStar span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 1px;
+    background: #777777;
+    position: relative;
+}
+.dividerStar span i{
+    display: flex;
+    width: 31px;
+    height: 25px;
+    background: url(../images/star.png) 0 0 no-repeat;
+}

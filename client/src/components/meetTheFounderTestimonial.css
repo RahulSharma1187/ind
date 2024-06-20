@@ -1,0 +1,43 @@
+.testimonialBox{
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.testimonialImgBox{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6367e9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.testimonialImgBox img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.testimonialContBox{
+    background: #ccc;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.testimonialContBox h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.meetTheFounderTestimonial{
+    margin: 100px 0;
+}
+.slick-dots li button:before{
+    font-size: 20px;
+}
+.slick-dots{
+    bottom: -50px;
+}

@@ -1,0 +1,11 @@
+.languageofStars{
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.languageofStars h2{
+    color: rgba(255,255,255,0.6);
+    font-size: 193px;
+}
